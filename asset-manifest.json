@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Poptfolio/static/css/main.3551332b.css",
+    "main.js": "/Poptfolio/static/js/main.18effeea.js",
+    "static/media/1.PNG": "/Poptfolio/static/media/1.2cd68dbfd1081748d087.PNG",
+    "static/media/9.PNG": "/Poptfolio/static/media/9.2760ddfb44ce7ab4afd7.PNG",
+    "static/media/2.PNG": "/Poptfolio/static/media/2.ed50feb33c96821bb7d9.PNG",
+    "static/media/6.PNG": "/Poptfolio/static/media/6.fc957c18797085c30934.PNG",
+    "static/media/8.PNG": "/Poptfolio/static/media/8.a42d0d4596b9e77c1778.PNG",
+    "static/media/3.PNG": "/Poptfolio/static/media/3.8758423aa62633c19f23.PNG",
+    "static/media/7.PNG": "/Poptfolio/static/media/7.50ff2e83e3de45314c6f.PNG",
+    "static/media/4.PNG": "/Poptfolio/static/media/4.3030f4055668ea455eef.PNG",
+    "static/media/5.PNG": "/Poptfolio/static/media/5.a874b1073b0483085aaa.PNG",
+    "static/media/nareman.png": "/Poptfolio/static/media/nareman.3525beca9bfff7524740.png",
+    "static/media/logo-n.png": "/Poptfolio/static/media/logo-n.c8a9e831b6ddb77c8b12.png",
+    "index.html": "/Poptfolio/index.html",
+    "main.3551332b.css.map": "/Poptfolio/static/css/main.3551332b.css.map",
+    "main.18effeea.js.map": "/Poptfolio/static/js/main.18effeea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3551332b.css",
+    "static/js/main.18effeea.js"
+  ]
+}
