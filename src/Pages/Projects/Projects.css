@@ -1,0 +1,30 @@
+.projects{
+    left: 240px;
+    width: calc(100% - 240px);
+    position: relative;
+    height: auto;
+    margin-bottom: 200px;
+    
+}
+.projects img{
+    width: 330px;
+    height: 250px;
+    box-shadow:10px 10px 10px 8px rgb(192, 189, 189);
+    border-radius: 25px;
+    /* border: solid 1px rgb(82, 0, 99); */
+    
+}
+.projects .row{
+    margin-bottom: 20px;
+}
+.projects .header-projects h1{
+    text-align: center;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.projects .header-projects h1 span{
+    color: darkgray;
+    font-weight: bold; 
+}

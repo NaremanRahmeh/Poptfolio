@@ -1,0 +1,158 @@
+.skills{
+    left: 240px;
+    width: calc(100% - 240px);
+    position: relative;
+    height: auto;
+    margin-bottom: 200px;
+}
+.skills-header{
+    width: 100%;
+    margin-bottom: 70px;
+    place-items: center;
+    text-align: center;
+}
+.skills .skills-header h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.skills .skills-header h1 span{
+    color: darkgray;
+}
+.skills main{
+    font-size: 20px;
+}
+.skills-main{
+    width: 100%;
+}
+.skills-main .skills-bar{
+    margin-bottom: 20px;
+}
+.skills-main .skills-bar .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.skills-bar .info .percent{
+    font-weight: bold;
+}
+.skills-bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: darkgray;
+    border-radius: 50px;
+    margin-top: 5px;
+    position: relative;
+}
+.skills-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color:  rgb(82, 0, 99);
+    border-radius: 50px;
+
+}
+.skills-bar .bar .html{
+    width: 90%;
+    animation: html 3s;
+}
+@keyframes html{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.skills-bar .bar .css{
+    width: 85%;
+    animation: css 4s;
+}
+@keyframes css{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+.skills-bar .bar .javascript{
+    width: 75%;
+    animation: javascript 5s;
+}
+@keyframes javascript{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+.skills-bar .bar .bootstrap{
+    width: 60%;
+    animation: bootstrap 7s;
+}
+@keyframes bootstrap{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+.skills-bar .bar .c{
+    width: 50%;
+    animation: c 7s;
+}
+@keyframes c{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.skills-bar .bar .asp{
+    width: 50%;
+    animation: asp 7s;
+}
+@keyframes asp{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+.skills-bar .bar .jquery{
+    width: 65%;
+    animation: jquery 6s;
+}
+@keyframes jquery{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+
+
+.skills-bar .bar .react{
+    width: 70%;
+    animation: react 7s;
+}
+@keyframes react{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
