@@ -1,9 +1,8 @@
 .projects{
-    left: 240px;
-    width: calc(100% - 240px);
-    position: relative;
+    background-color:rgba(231, 231, 231, 0.5);
     height: auto;
     margin-bottom: 200px;
+    padding: 30px 30px;
     
 }
 .projects img{

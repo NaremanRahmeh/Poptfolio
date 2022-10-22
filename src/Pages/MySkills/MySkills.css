@@ -1,7 +1,5 @@
 .skills{
-    left: 240px;
-    width: calc(100% - 240px);
-    position: relative;
+   
     height: auto;
     margin-bottom: 200px;
 }

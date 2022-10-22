@@ -1,14 +1,5 @@
 .home{
-    /* min-height: 100vh;
-    display: block;
-    left: 200px;
-    top: 0;
-    right: 0;
-    z-index: 0;
-    opacity: 1;
-    min-height: 100vh; */
-    left: 150px;
-    position: relative;
+    
     height: auto;
     color: black;
     margin-top: 200px;
@@ -40,7 +31,7 @@
     font-weight: 500;
 }
 .hom .btn{
-    background-color: rgb(82, 0, 99);
+    background-color:  rgb(120, 44, 155);
     color: #fff;
     align-items: center;
     margin-top: 30px;

@@ -1,152 +1,75 @@
-  .sidebar{
-    background-color: rgb(82, 0, 99);
-    color: white;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-  }
-  .sidebar .routes{
-    color: white;
-  }
-  .sidebar .top-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 10px;
-  }
-  .sidebar img{
-    width: 120px;
-    height: 85px;
-    line-height: 0;
+nav{
+  background-color: rgb(120, 44, 155);
+  top: 0px;
+  height: 60px;
+  display: block;
 
-  }
-  .sidebar .routes{
-    margin-top: 20px;
-  }
-  .routes .side-nav{
-    display: flex;
-    color: white;
-    gap:10px;
-    padding: 5px 5px;
-    border-right: 6px solid transparent;
-    transition: 0.2s cubic-bezier(0.6 ,-0.28 ,0.735 ,0.045) ;
-  }
-  .routes .side-nav:hover{
-    display: flex;
-    border-right: 6px solid white;
-    background-color: rgb(185, 185, 185);
-  }
-  a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    display: flex;
-    padding-top: 10px;
-   
-  }
-  a:hover{
-    text-decoration: none;
-    color: white;
-
-  }
-  .sidebar .side-nav  a .nav-menu{
-    height: 50px;
-    min-width: 25px;
-    margin-right: 10px;
-    padding-bottom: 17px;
- }
-/* .sidebar{
-    height: 100%;
-    width: 220px;
-    background-color: rgb(82, 0, 99);
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 6px 6px;
-    margin-left: 0;
-}
-.sidebar img{
-    width: 120px;
-    margin-left: 30px;
-    margin-bottom: 40px;
-}
-.sidebar .btn{
-    color: #fff;
-    display:flex;
-    left:90%;
-    top: 6px;
-    font-weight: bold;
-    font-size: 15spx;
 } 
-.sidebar .side-nav{
-    margin-top: 20px;
+.na-bg{
+  background-color: rgb(238, 238, 238);
 }
-.sidebar .side-nav .li{
-    list-style: none;
-    height: 60px;
-    width: 100%;
-    position: relative;
-    line-height: 60px;
-    margin-top: 5px;
-    left: 0px;
-    align-items: center;
-    text-align: center;
-}
-.sidebar .side-nav .li a{
-    color: #fff;
-    display: flex;
-    text-decoration: none;
-    transition: all 0.4s ease;
-    padding-left: 10px;
-    font-size: 20px;
-    align-items: center;
-    text-align: center;
-}
-.sidebar .side-nav .li a:hover{
-    color: #fff;
-    background-color: rgb(156, 156, 156);
-    border-radius: 7px;
-}
-.sidebar .side-nav  a .nav-menu{
-   height: 50px;
-   min-width: 25px;
-   margin-right: 15px;
-   line-height: 15px;
-   text-align: center;
-}
-.sidebar .profile-content{
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    color: #fff;
-    width: 100%;
-}
-.sidebar .profile-content .profile{
-    position: relative;
-    padding: 10px 6px;
-    height: 60px;
-}
-.social{
-    list-style: none;
-    margin-top: 5px;
-}
-.social a{
-    color: #fff;
-   margin-left: 10px;
-    display: flex;
-    float: left;
-    margin-bottom: 10px;
-}
+nav img {
+  max-width: 100%;
+  height: 90%;
+  margin-right: 400px;
+  width: 70px;
+  height: 50px;
+  margin-top: 10px;
+  } 
+  
 
-
-.h-color{
-    margin-top: 30px;
-    color: #fff;
-    margin-bottom: 20px;
+.nav-link{
+  display: flex;
+  gap:4rem;
+  align-items: center;
+  color: #fff;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
 }
- .sidebar .active{
-    background-color:rgb(156, 156, 156) ;
-    border-radius: 5px;
+nav a{
+   margin-left: 60px;
+   padding: 10px;
+  float:right;
+  color: #fff;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+ 
+}
+.nav a:hover{
+  color: rgba(190, 190, 190, 0.9);
+}
+/* nav a:is(:link ,:active ,:visited){
+  color: #fff;
+  background-color: black;
+}
+*/
+/* @media only screen and (max-width :767px) {
+  .nav-link {
+      background: rgb(0, 0, 0, 0.8);
+  }
+  nav a{
+      color: #fff;
+
+  }
+  .toggle{
+      padding: 1px 5px;
+      font-size: 18px;
+      line-height: 0.3;
+      background-color: #fff;
+
+  }
+}
+#menu-area .cus-nav{
+  background: #262626;
+  z-index: 999;
+}
+#menu-area.cus-nav a{
+  color: #fff;
+
 } */

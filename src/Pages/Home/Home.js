@@ -21,6 +21,31 @@ export const Home =()=> {
         <img src={imgN} alt="image"/>
       </div>
       </div>
+
+      {/* <div className='social'>
+  <div>
+      <a target='_blank'  rel="noreferrer" href='https://www.linkedin.com/in/nareman-rahmeh-6a5076250/'>
+        <BsLinkedin className='linked-link' style={{width:'20px' , height:'20px'}} />
+      </a>
+  </div>
+  <div>
+      <a target='_blank'  rel="noreferrer" href='https://instagram.com/nareman_rahmeh?igshid=YmMyMTA2M2Y='>
+        <BsInstagram className='insta-link' style={{width:'20px' , height:'20px'}}/>
+      </a>
+  </div>
+  <div>
+      <a target='_blank' rel="noreferrer" href='https://www.facebook.com/profile.php?id=100067804788363'>
+        <AiOutlineFacebook className='fac-link' style={{width:'20px' , height:'20px'}}/>
+      </a>
+  </div>
+  <div>
+      <a target='_blank' rel="noreferrer" href='https://github.com/NaremanRahmeh'>
+        <BsGithub className='git-link' style={{width:'20px' , height:'20px'}}/>
+      </a>
+  </div>
+ </div> */}
+      
+
     </div>
   )
 }

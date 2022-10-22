@@ -4,8 +4,9 @@ import './About.css';
 export const About =()=> {
   return (
 
-    <div className='container'>
+   
     <div className='about'>
+       <div className='container'>
 
        <h1><span>About</span> Me</h1> 
        {/* <hr/> */}

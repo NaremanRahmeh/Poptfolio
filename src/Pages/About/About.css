@@ -1,9 +1,8 @@
 .about{
-    left: 240px;
-    width: calc(100% - 240px);
-    position: relative;
     height: auto;
     margin-bottom: 200px;
+    background-color: rgba(231, 231, 231, 0.5);
+    padding: 30px 30px;
 
 }
 .about h1{

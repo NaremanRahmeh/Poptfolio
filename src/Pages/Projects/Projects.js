@@ -14,8 +14,9 @@ import Card from 'react-bootstrap/Card';
 
 const Projects = () => {
   return (
-    <div className='container'>
+
     <div className='projects'>
+      <div className='container'>
       <div className='header-projects'>
       <h1>My <span>Projects</span></h1>
       </div>
