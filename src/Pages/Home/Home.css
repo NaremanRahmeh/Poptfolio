@@ -1,8 +1,15 @@
 .home{
-    left: 260px;
+    /* min-height: 100vh;
+    display: block;
+    left: 200px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 1;
+    min-height: 100vh; */
+    left: 150px;
     position: relative;
     height: auto;
-    width: calc(100% - 240px);
     color: black;
     margin-top: 200px;
     margin-bottom: 250px;

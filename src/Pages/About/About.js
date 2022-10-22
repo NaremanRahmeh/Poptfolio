@@ -9,7 +9,7 @@ export const About =()=> {
 
        <h1><span>About</span> Me</h1> 
        {/* <hr/> */}
-       <p>Hello, I am a web developer, graduated from Damascus University, Computer Technical Institute, Software Engineering.
+       <p> I am a web developer, graduated from Damascus University, Computer Technical Institute, Software Engineering.
 
        </p>
 

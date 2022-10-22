@@ -46,6 +46,10 @@
 .contact .h-col{
     margin-top: 70px;
 }
+.contact .content a{
+    text-decoration: none;
+    color: black;
+}
 
 .form-header{
     margin-top: 50px;
@@ -67,6 +71,15 @@
     font-weight: 500;
     padding: 15px 30px 15px 30px;
     border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.contact .btn:hover{
+    background-color:#fff;
+    color: black;
+    font-weight: 500;
+    padding: 15px 30px 15px 30px;
+    border: solid 2px black;
     border-radius: 15px;
     margin-top: 20px;
 }

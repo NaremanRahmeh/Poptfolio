@@ -25,7 +25,7 @@ const Projects = () => {
       <Carousel.Item>
       <div className='row' >
          <div className='col-md-4'>
-         <img src={project1} style={{boxShadow:'10px 10px 10px #ddd'}} />
+         <img src={project1}/>
          </div>
          <div className='col-md-4'>
          <img src={project2}/>
