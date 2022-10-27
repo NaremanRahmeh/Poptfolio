@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import imgN from '../../assets/image/nareman.png';
 import {BsArrowRight} from "react-icons/bs";
+import { Link } from 'react-scroll';
 
 
 
@@ -15,7 +16,7 @@ export const Home =()=> {
        <h2>I`M a Frontend Developer</h2>
        <p>i have 2 year of experience building <br/>and designing software  
         ,currently I love work on web application<br/> using technolgies like React ,Angular .</p>
-        <button className='btn'> <span>Portfolio<BsArrowRight className='svg'/></span></button>
+        <Link to='projects' smooth duration={500} className='btn'> <span>Portfolio<BsArrowRight className='svg'/></span></Link >
       </div>
       <div className='col-md-5'>
         <img src={imgN} alt="image"/>

@@ -1,75 +1,78 @@
-nav{
-  background-color: rgb(120, 44, 155);
+header{
+  background-color:  rgb(120, 44, 155);
   top: 0px;
   height: 60px;
-  display: block;
-
-} 
-.na-bg{
-  background-color: rgb(238, 238, 238);
-}
-nav img {
-  max-width: 100%;
-  height: 90%;
-  margin-right: 400px;
-  width: 70px;
-  height: 50px;
-  margin-top: 10px;
-  } 
-  
-
-.nav-link{
+  width: 100%;
   display: flex;
-  gap:4rem;
   align-items: center;
   color: #fff;
-  font-family: poppins;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-}
-nav a{
-   margin-left: 60px;
-   padding: 10px;
-  float:right;
-  color: #fff;
-  font-family: poppins;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
- 
-}
-.nav a:hover{
-  color: rgba(190, 190, 190, 0.9);
-}
-/* nav a:is(:link ,:active ,:visited){
-  color: #fff;
-  background-color: black;
-}
-*/
-/* @media only screen and (max-width :767px) {
-  .nav-link {
-      background: rgb(0, 0, 0, 0.8);
   }
-  nav a{
-      color: #fff;
+
+header img {
+  max-width: 100%;
+  height: 90%;
+  width: 70px;
+  height: 50px;
+  } 
+ header .menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
 
   }
-  .toggle{
-      padding: 1px 5px;
-      font-size: 18px;
-      line-height: 0.3;
-      background-color: #fff;
-
+  header .mobile-nav{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    position:absolute;
+    top: 0;
+    margin-top: 60px;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    color: black;
+    background-color:  rgb(120, 44, 155);
+    padding-bottom: 20px;
   }
-}
-#menu-area .cus-nav{
-  background: #262626;
-  z-index: 999;
-}
-#menu-area.cus-nav a{
-  color: #fff;
+  header .mobile-nav li:hover{
+    background-color: #fff;
+   
+  }
 
-} */
+  .icons{
+    visibility: hidden;
+    color: #fff;
+    position: absolute;
+  }
+  @media only screen and (max-width :767px){
+    header .menu{
+      visibility: hidden;
+    }
+    .icons{
+      visibility: visible;
+    }
+    header .mobile-nav{
+      visibility:visible;
+    }
+  }
+
+
+
+  header  a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+    font-size: 14px;
+    font-weight: 500px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0 15px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    display: flex;
+    
+  } 
+  header a:hover{
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+  }

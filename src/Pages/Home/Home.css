@@ -3,7 +3,7 @@
     height: auto;
     color: black;
     margin-top: 200px;
-    margin-bottom: 250px;
+    margin-top: 200px;
 }
 
 .hom{
@@ -38,7 +38,7 @@
     padding: 10px 20px 10px 20px;
 }
 .hom .btn:hover{
-    background-color: darkgray;
+    background-color: rgb(255, 255, 255);
     color: black;
     align-items: center;
     margin-top: 30px;
