@@ -3,6 +3,7 @@ import './Contact.css';
 import { BsTelephoneFill } from "react-icons/bs";
 import { BsFillGeoAltFill } from "react-icons/bs";
 import { BsEnvelope } from "react-icons/bs";
+import { BsInstagram,BsGithub ,BsFacebook } from "react-icons/bs";
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -28,23 +29,34 @@ const Contact = () => {
     <div className='content'>
     <div className='row'>
 
-    <div className='col-md-4'>
+    <div className='col-md-3'>
      <span><BsTelephoneFill className='svg'/></span>
       <h3>Call Us On</h3>
      <main><a  href='https://api.whatsapp.com/send?phone+963937322291' target="_blank">+963937322291</a></main> 
     </div>
 
-    <div className='col-md-4'>
+    <div className='col-md-3'>
     <span><BsFillGeoAltFill className='svg1'/></span>
       <h3>Office</h3>
        <main>Damascus _ Qaboun</main>
         </div>
 
-        <div className='col-md-4'>
+        <div className='col-md-3'>
         <span><BsEnvelope className='svg2'/></span>
       <h3>Email</h3>
        <main><a href='mailto:naremanrh21@gmail.com' target="_blank">naremanrh21@gmail.com</a></main> 
         </div>
+
+        <div className='col-md-3'>
+        <span>
+        <ul>
+            <li><a href='https://instagram.com/nareman_rahmeh?igshid=YmMyMTA2M2Y='><BsInstagram className='svgg'/></a></li>
+            <li><a href='https://www.facebook.com/profile.php?id=100067804788363'><BsFacebook className='svgg'/></a></li>
+            <li><a href='https://github.com/NaremanRahmeh'><BsGithub className='svgg'/></a></li>
+            </ul>
+        </span>
+        </div>
+        
         </div>
         <hr className='h-col'/>
         <div className='form-header'>

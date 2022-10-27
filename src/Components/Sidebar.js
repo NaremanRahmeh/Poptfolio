@@ -37,6 +37,7 @@ export const Sidebar = () => {
         ] 
   return (
     <Fragment>
+      <div className='container'>
 
       <header id='header' className='fixed-top justify-between'>
       <div className='container d-flex '>
@@ -73,11 +74,11 @@ export const Sidebar = () => {
 
         )}
              
-    
+             
         </header>
         
 
-        
+        </div>
     </Fragment>
   )
 }
