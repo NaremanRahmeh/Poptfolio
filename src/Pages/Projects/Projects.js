@@ -53,13 +53,13 @@ const Projects = () => {
       <Carousel.Item>
       <div className='row'>
          <div className='col-md-4'>
-         <img src={project7} class="d-block w-100"/>
+         <img src={project7} />
          </div>
          <div className='col-md-4'>
-         <img src={project8} class="d-block w-100"/>
+         <img src={project8} />
          </div>
          <div className='col-md-4'>
-         <img src={project9} class="d-block w-100"/>
+         <img src={project9} />
          </div>
         </div>
       

@@ -9,11 +9,8 @@ header{
   }
 
 header img {
-  max-width: 100%;
-  height: 90%;
   width: 70px;
   height: 50px;
-  margin-left: 85px;
   } 
  header .menu{
   margin: 0;
@@ -46,7 +43,7 @@ header img {
     color: #fff;
     position: absolute;
   }
-  @media only screen and (max-width :767px){
+  @media only screen and (max-width :800px){
     header .menu{
       visibility: hidden;
     }
@@ -55,6 +52,9 @@ header img {
     }
     header .mobile-nav{
       visibility:visible;
+    }
+    header img {
+      visibility: hidden;
     }
   }
 
@@ -67,7 +67,7 @@ header img {
     font-size: 14px;
     font-weight: 500px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 0 15px;
+    padding: 0 8px;
     text-transform: uppercase;
     margin-top: 5px;
     display: flex;

@@ -31,13 +31,13 @@ const Contact = () => {
 
     <div className='col-md-3'>
      <span><BsTelephoneFill className='svg'/></span>
-      <h3>Call Us On</h3>
+      <h3>Call Me</h3>
      <main><a  href='https://api.whatsapp.com/send?phone+963937322291' target="_blank">+963937322291</a></main> 
     </div>
 
     <div className='col-md-3'>
     <span><BsFillGeoAltFill className='svg1'/></span>
-      <h3>Office</h3>
+      <h3>Location</h3>
        <main>Damascus _ Qaboun</main>
         </div>
 

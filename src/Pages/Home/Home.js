@@ -15,7 +15,7 @@ export const Home =()=> {
       <div className='hom col-md-7'>
        <h1>Hello, My Name Is <span>Nareman Rahmeh</span></h1>
        <h2>I`M a Frontend Developer</h2>
-       <p>i have 2 year of experience building <br/>and designing software  
+       <p>I have 2 year of experience building <br/>and designing software  
         ,currently I love work on web application<br/> using technolgies like React ,Angular .</p>
         <Link to='projects' smooth duration={500} className='btn'> <span>Portfolio<BsArrowRight className='svg'/></span></Link >
       </div>
