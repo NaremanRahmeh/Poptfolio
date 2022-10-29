@@ -1,6 +1,6 @@
 .contact{
     height: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 .contact .contact-header{
@@ -23,11 +23,19 @@
 .contact .content{
     text-align: center;
 }
+.contact .content h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.contact .content main{
+    font-size: 15px;
+    font-weight: bold;
+}
 .contact .content .svg{
     color: rgb(2, 124, 49);
     width: 30px;
     height: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .contact .content .svg1{
     color: rgb(207, 11, 11);

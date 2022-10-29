@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 import imgN from '../../assets/image/nareman.png';
 import {BsArrowRight} from "react-icons/bs";
@@ -8,6 +8,7 @@ import { Link } from 'react-scroll';
 
 
 export const Home =()=> {
+ 
   return (
     <div className='home'>
        <div className='container'>

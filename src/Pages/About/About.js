@@ -9,7 +9,7 @@ export const About =()=> {
     <div className='about'>
        <div className='container'>
 
-       <h1><span>About</span> Me</h1> 
+       <h1>About<span> Me</span></h1> 
        {/* <hr/> */}
        <p> I am a web developer, graduated from Damascus University, Computer Technical Institute, Software Engineering.
 

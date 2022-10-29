@@ -14,7 +14,7 @@ export const MySkills =()=> {
      <div className='skills'>
      
       <div className='skills-header'>
-        <h1>My <span>Skills</span></h1>
+        <h1> <span>My </span>Skills</h1>
         <main>Here is my skills to represent my expertise</main>
        
       </div>

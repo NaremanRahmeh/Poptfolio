@@ -26,10 +26,11 @@ const Contact = () => {
    e.target.reset()
   };
   return (
+
     <div className='container'>
     <div className='contact'>
     <div className='contact-header'>
-    <h1><span>Contact</span> Me</h1>
+    <h1>Contact<span> Me</span></h1>
     <h5>Have You Any Questions?</h5>
     </div>
 

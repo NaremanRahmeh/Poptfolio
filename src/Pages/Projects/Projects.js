@@ -18,7 +18,7 @@ const Projects = () => {
     <div className='projects'>
       <div className='container'>
       <div className='header-projects'>
-      <h1>My <span>Projects</span></h1>
+      <h1> <span>My </span>Projects</h1>
       </div>
       <div className='content-projects'>
 
