@@ -35,7 +35,7 @@ export const About =()=> {
            <hr/>
           </div>
           <div className='col-md-4 sm-12'>
-          <h6><span>Experience:</span>2</h6>
+          <h6><span>Experience:</span> 2 Year</h6>
           <hr/>
           <button className='btn1'> Download Cv</button>
           </div>
