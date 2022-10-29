@@ -3,14 +3,15 @@
     height: auto;
     color: black;
     margin-top: 200px;
-    margin-top: 200px;
 }
-
+.home .row{
+    margin-left: 40px;
+}
 .hom{
     margin-top: 30px;
 }
 .hom h1{
-    font-size: 35px;
+    font-size: 30px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     margin-bottom: 30px;
@@ -20,28 +21,27 @@
     font-weight: bold; 
 }
 .hom h2{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .hom p{
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 .hom .btn{
-    background-color:  rgb(120, 44, 155);
+    background: none;
+    border: 2px solid rgb(120, 44, 155);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+}
+
+.hom .btn:hover{
+    background-color:rgb(120, 44, 155);
     color: #fff;
     align-items: center;
-    margin-top: 30px;
-    padding: 10px 20px 10px 20px;
-}
-.hom .btn:hover{
-    background-color: rgb(255, 255, 255);
-    color: black;
-    align-items: center;
-    margin-top: 30px;
-    padding: 15px 25px 15px 25spx;
 }
 .hom .btn span{
     display: flex;
@@ -49,15 +49,60 @@
 .hom .svg{
     margin-top: 5px;
 }
-.home img{
-    width: 350px;
-    height: 350px;
-    border-radius: 170px;
-    box-shadow: 5px 5px 5px 12px rgb(204, 187, 211);
+.home .box{
+    position: relative;
+   width: 350px;
+   height: 350px;
+   background-color: #c5c5c580;
+   border-radius: 50%;
+   overflow: hidden;
+
 }
-.home img:hover{
-    width: 350px;
-    height: 350px;
-    border-radius: 170px;
-    box-shadow: 5px 5px 5px 10px rgb(204, 187, 211);
+.home .box::before{
+    content: "";
+     position: absolute;
+     inset: -20px 100px;
+     background: linear-gradient(315deg , rgb(223, 70, 197), rgb(87, 33, 112));
+     transition: 0.5s;
+     animation: animate 4s linear infinite;
+
+}
+.home .box:hover::before{
+    inset: -20px 0px;
+}
+@keyframes animate{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.home .box::after{
+    content: "";
+    position: absolute;
+    inset: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}
+.home .content{
+    position: absolute;
+    inset: 20px;
+    border: 6px solid rgba(255, 254, 254, 0.5);
+    z-index: 3;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.home .content img{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ transition: 0.5s;
+ pointer-events: none;
 }

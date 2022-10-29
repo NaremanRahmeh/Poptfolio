@@ -4,10 +4,19 @@ import { BsTelephoneFill } from "react-icons/bs";
 import { BsFillGeoAltFill } from "react-icons/bs";
 import { BsEnvelope } from "react-icons/bs";
 import { BsInstagram,BsGithub ,BsFacebook } from "react-icons/bs";
+import { BiCheckCircle } from "react-icons/bi";
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+    
+  const[popupStyle, showPopup] = useState("hide");
+  const popup = ()=>{
+    showPopup("success")
+    setTimeout(() => showPopup("hide"),3000)
+  }
+
 
   const form =useRef();
   const sendEmail = (e) => {
@@ -16,8 +25,6 @@ const Contact = () => {
     emailjs.sendForm('service_yepqby4', 'template_jktidda', form.current, 'HwN46889aTOBfjuKg')
    e.target.reset()
   };
-
-
   return (
     <div className='container'>
     <div className='contact'>
@@ -77,7 +84,7 @@ const Contact = () => {
     <textarea name='message'  className="form-control" placeholder="Message"  rows='5' required/>
   </div>
   <div className="col-md-12">
-    <button type="submit" className="btn">Send Message</button>
+    <button  onClick={popup} className="btn">Send Message</button>
   </div>
 </form>
     </div>

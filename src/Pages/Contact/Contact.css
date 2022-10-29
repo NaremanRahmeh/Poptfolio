@@ -63,6 +63,9 @@
     background-color: rgb(223, 223, 223);
     font-size: 18px;
 }
+.form-control:focus{
+   outline-color: black;
+}
 .contact .btn{
     background-color:  rgb(120, 44, 155);
     color: #fff;
@@ -92,4 +95,24 @@
     height: 30px;
     padding-top: 10px;
 
+}
+.hide{
+    position: absolute;
+    transform: scale(0);
+
+}
+.success{
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: blueviolet;
+    color: #fff;
+    bottom: 10px;
+    transform: scale(1);
+    transform: 1.5s;
 }
