@@ -17,7 +17,7 @@ export const Home =()=> {
        <h2>I`M a Frontend Developer</h2>
        <p>I have 2 year of experience building <br/>and designing software  
         ,currently I love work on web application<br/> using technolgies like React ,Angular .</p>
-        <Link to='about' smooth duration={500} className='btn'> <span>Here me<BsArrowRight className='svg'/></span></Link >
+        <Link to='about' smooth duration={500} className='btn btn1'> <span>Here me<BsArrowRight className='svg'/></span></Link >
       </div>
       <div className='col-md-5'>
         <div className='box'>

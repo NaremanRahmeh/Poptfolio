@@ -30,18 +30,37 @@
     font-size: 18px;
     font-weight: 500;
 }
-.hom .btn{
-    background: none;
-    border: 2px solid rgb(120, 44, 155);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    padding: 12px 20px;
-}
 
-.hom .btn:hover{
-    background-color:rgb(120, 44, 155);
+.hom .btn{
+    border: 2px solid rgb(120, 44, 155);
+    background: none;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.hom .btn::before{
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background: rgb(120, 44, 155);
+    z-index: -1;
+    transition: 0.8s;
+}
+.hom .btn1::before{
+     top: 0;
+     border-radius: 0 0 50% 50%;
+}
+.hom .btn1:hover::before{
+    height: 180%;
+}
+.hom .btn1:hover{
     color: #fff;
-    align-items: center;
 }
 .hom .btn span{
     display: flex;

@@ -40,7 +40,7 @@ export const Sidebar = () => {
       <div className='container'>
 
       <header id='header' className='fixed-top justify-between'>
-      <div className='container d-flex '>
+      <div className='container'>
         <a className="navbar-brand mr-auto" href="#"> <img src={Logo} alt='nareman'/></a>
         </div>
 

@@ -96,11 +96,6 @@
     padding-top: 10px;
 
 }
-.hide{
-    position: absolute;
-    transform: scale(0);
-
-}
 .success{
     position: absolute;
     height: 30em;
