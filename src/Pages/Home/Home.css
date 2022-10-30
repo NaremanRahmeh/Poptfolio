@@ -80,10 +80,10 @@
 .home .box::before{
     content: "";
      position: absolute;
-     inset: -20px 100px;
+     inset: -20px 120px;
      background: linear-gradient(315deg , rgb(223, 70, 197), rgb(87, 33, 112));
      transition: 0.5s;
-     animation: animate 4s linear infinite;
+     animation: animate 6s linear infinite;
 
 }
 .home .box:hover::before{

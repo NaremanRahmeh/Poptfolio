@@ -12,27 +12,27 @@ export const Sidebar = () => {
           {
             id: 1,
             link: 'home' ,
-            icon :<BsFillHouseDoorFill style={{width:'15px',height:'15px',marginBottom:'6px', marginRight:'2px'}}/>
+            icon :<BsFillHouseDoorFill style={{width:'18px',height:'18px',marginBottom:'6px', marginRight:'4px'}}/>
           },
           {
             id: 2,
             link: 'about' ,
-            icon :<BsPersonFill style={{width:'15px',height:'15px',marginBottom:'6px', marginRight:'2px'}}/>
+            icon :<BsPersonFill style={{width:'18px',height:'18px',marginBottom:'6px', marginRight:'4px'}}/>
           },
           {
             id: 3,
             link: 'myskills' ,
-            icon :<BsFillAwardFill style={{width:'15px',height:'15px',marginBottom:'6px', marginRight:'2px'}}/>
+            icon :<BsFillAwardFill style={{width:'18px',height:'18px',marginBottom:'6px', marginRight:'4px'}}/>
           },
           {
             id: 4,
             link: 'projects' ,
-            icon :<BsFillCalendarCheckFill style={{width:'15px',height:'15px',marginBottom:'6px', marginRight:'2px'}}/>
+            icon :<BsFillCalendarCheckFill style={{width:'18px',height:'18px',marginBottom:'6px', marginRight:'4px'}}/>
           },
           {
             id: 5,
             link: 'contact' ,
-            icon :<BsEnvelopeFill style={{width:'15px',height:'15px',marginBottom:'6px', marginRight:'2px'}}/>
+            icon :<BsEnvelopeFill style={{width:'18px',height:'18px',marginBottom:'6px', marginRight:'4px'}}/>
           },
         ] 
   return (

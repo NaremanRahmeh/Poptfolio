@@ -4,19 +4,15 @@ import { BsTelephoneFill } from "react-icons/bs";
 import { BsFillGeoAltFill } from "react-icons/bs";
 import { BsEnvelope } from "react-icons/bs";
 import { BsInstagram,BsGithub ,BsFacebook } from "react-icons/bs";
+import { motion } from 'framer-motion';
 import { BiCheckCircle } from "react-icons/bi";
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-
     
-  const[popupStyle, showPopup] = useState("hide");
-  const popup = ()=>{
-    showPopup("success")
-    setTimeout(() => showPopup("hide"),3000)
-  }
 
+  const [rotate ,setRotat] =React.useState(false);
 
   const form =useRef();
   const sendEmail = (e) => {
@@ -73,19 +69,23 @@ const Contact = () => {
 
         <form className="row g-3" ref={form} onSubmit={sendEmail}>
   <div className="col-md-6">
-    <input type="text" name='name' className="form-control" placeholder='Enter Name' required/>
+    <motion.input animate={{x:10,scale: 1 }} initial={{scale :0}}
+    type="text" name='name' className="form-control" placeholder='Enter Name' required/>
   </div>
   <div className="col-md-6">
-    <input type="email" name='email'  className="form-control"  placeholder='Email' required/>
+    <motion.input animate={{x:10,scale: 1 }} initial={{scale :0}}
+    type="email" name='email'  className="form-control"  placeholder='Email' required/>
   </div>
   <div className="col-md-12">
-    <input type="text" name='subject' className="form-control"  placeholder="Subject"/>
+    <motion.input animate={{x:10,scale: 1 }} initial={{scale :0}}
+     type="text" name='subject' className="form-control"  placeholder="Subject"/>
   </div>
   <div className="col-md-12">
-    <textarea name='message'  className="form-control" placeholder="Message"  rows='5' required/>
+    <motion.textarea animate={{x:10,scale: 1 }} initial={{scale :0}}
+     name='message'  className="form-control" placeholder="Message"  rows='5' required/>
   </div>
   <div className="col-md-12">
-    <button  onClick={popup} className="btn">Send Message</button>
+    <motion.button animate={{rotate: rotate ? 360 : 0}} onClick={()=> {setRotat(!rotate)}} className="btn btn1">Send Message</motion.button>
   </div>
 </form>
     </div>
