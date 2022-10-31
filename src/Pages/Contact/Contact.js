@@ -62,7 +62,6 @@ const Contact = () => {
         </div> */}
         
         </div>
-        <hr className='h-col'/>
         <div className='form-header'>
         <h5>Send Me An Email</h5>
         </div>
