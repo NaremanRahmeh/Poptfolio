@@ -33,24 +33,24 @@ const Contact = () => {
     <div className='content'>
     <div className='row'>
 
-    <div className='col-md-3'>
+    <motion.div className='col-md-4' whileHover={{scale:1.1}}>
      <span><BsTelephoneFill className='svg'/></span>
       <h3>Call Me</h3>
      <main><a  href='https://api.whatsapp.com/send?phone+963937322291' target="_blank">+963937322291</a></main> 
-    </div>
+     </motion.div>
 
-    <div className='col-md-3'>
+    <motion.div className='col-md-4' whileHover={{scale:1.1}}>
     <span><BsFillGeoAltFill className='svg1'/></span>
       <h3>Location</h3>
        <main>Damascus _ Qaboun</main>
-        </div>
+        </motion.div>
 
-        <div className='col-md-3'>
+        <motion.div className='col-md-4' whileHover={{scale:1.1}}>
         <span><BsEnvelope className='svg2'/></span>
       <h3>Email</h3>
        <main><a href='mailto:naremanrh21@gmail.com' target="_blank">naremanrh21@gmail.com</a></main> 
-        </div>
-
+       </motion.div>
+{/* 
         <div className='col-md-3'>
         <span>
         <ul>
@@ -59,7 +59,7 @@ const Contact = () => {
             <li><a href='https://github.com/NaremanRahmeh'><BsGithub className='svgg'/></a></li>
             </ul>
         </span>
-        </div>
+        </div> */}
         
         </div>
         <hr className='h-col'/>
@@ -85,7 +85,8 @@ const Contact = () => {
      name='message'  className="form-control" placeholder="Message"  rows='5' required/>
   </div>
   <div className="col-md-12">
-    <motion.button animate={{rotate: rotate ? 360 : 0}} onClick={()=> {setRotat(!rotate)}} className="btn btn1">Send Message</motion.button>
+    <motion.button animate={{rotate: rotate ? 360 : 0}} onClick={()=> {setRotat(!rotate)}}
+     className="btn btn1">Send Message</motion.button>
   </div>
 </form>
     </div>

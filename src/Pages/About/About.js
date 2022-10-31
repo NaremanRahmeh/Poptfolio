@@ -3,6 +3,8 @@ import './About.css';
 
 
 export const About =()=> {
+
+       
   return (
 
    
@@ -12,9 +14,8 @@ export const About =()=> {
        <h1>About<span> Me</span></h1> 
        {/* <hr/> */}
        <p> I am a web developer, graduated from Damascus University, Computer Technical Institute, Software Engineering.
-
        </p>
-
+      
         <div className='box'>      
 
         <div className='row'>

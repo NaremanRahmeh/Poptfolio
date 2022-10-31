@@ -1,10 +1,10 @@
 import React, { Fragment, useState } from 'react';
-import './MySkills.css';
+import './Mysklills.css';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 
 
-export const MySkills =()=> {
+export const Myskills =()=> {
 
       const[counterOn ,setCounterOn] = useState (false);
     return (

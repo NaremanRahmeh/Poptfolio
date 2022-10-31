@@ -23,31 +23,3 @@
     font-size: 18px;
     font-weight: 300px;
 }
-.about a{
-    text-decoration: none;
-    color: black;
-}
-
-.about h4{
-    font-size: 30px;
-    font-weight: 400;
-    margin-bottom: 50px;
-
-}
-.about .btn1{
-    background-color:  rgb(120, 44, 155);
-    color: #fff;
-    padding: 5px 10px 5px 10px;
-    border-radius: 8px;
-    border: none;
-}
-.about span{
-    font-size: 20px;
-    font-weight:bold;
-}
-
-.about hr{
-  height: 3px;
-  width: 230px;
-   
-}
