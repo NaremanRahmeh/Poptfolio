@@ -37,7 +37,7 @@ export const About =()=> {
           <div className='col-md-4 sm-12'>
           <h6>Experience:<span> 2 Year</span></h6>
           <hr/>
-          <button className='btn btn1'> Download Cv</button>
+          <button className='btn btn1'><a href='Resume.pdf' download>Download Cv</a></button>
           </div>
           </div>
 
