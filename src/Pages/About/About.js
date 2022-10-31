@@ -7,7 +7,6 @@ export const About =()=> {
        
   return (
 
-    //  npm i AnimationEffect.css
     <div className='about'>
        <div className='container'>
 
